@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vitality Massage Studio | About Us</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+</head>
+
+<body>
+	<div id="container">
+		<div class="header-container">
+			<header>
+				<a href="index.html"><img src="images/vitality-logo.png" class="logo" alt="vitality massage studio logo"></a>
+			</header>
+			<nav>
+				<!-- this is for the sidebar-->
+				<ul class="sidebar">
+					<li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="https://www.vagaro.com/vitalitymassagestudio">Book Now</a></li>
+				</ul>
+				<!-- end of sidebar -->
+				
+				<ul>			 
+					<li class="hideOnMobile"><a href="index.html">Home</a></li>
+					<li class="hideOnMobile"><a href="about.html">About</a></li>
+					<li class="hideOnMobile"><a href="services.html">Services</a></li>
+					<li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+					<li class="hideOnMobile" id="booknowstyle"><a href="https://www.vagaro.com/us04/vitalitymassagestudio" target="_blank">Book Now</a></li>
+					<li class="menu-button" onclick=showSidebar()><a href=""></a><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+				</ul>
+
+
+			</nav>
+		</div>
+	
+		<main>
+			<div class="desktop-hero">
+				<img src="images/about-hero.png" class="abt-hero-img" alt="Get to know our expertly trained massage therapists at Vitality Massage Studio">
+			</div>
+
+			<div class="mbl-hero-index">
+				<img src="images/about-mbl-hero.png" class="mbl-hero-hm-img" alt="A banner reading: Get to know our licensed massage therapists. Our therapists are expertly trained, experienced and licensed.">
+			</div>
+
+			<div class="about-main">
+				<div class="image-container">
+					<img src="images/andrew-about.png" class="andrew-img" alt="Andrew Radi, Vitality Massage Studio Owner Performing Massage Therapy Services">
+						<div class="text-container">
+							<h4>Andrew Radi, Vitality Massage Studio Owner & LMT #1500</h4>
+							<p>Andrew Radi earned his credentials through Josefs School of Hair, Skin and Body in Fargo, ND. He is a Licensed Massage Therapist through the state of North Dakota, ND LMT #1500.<br></p>
+						</div>
+					</div>
+
+				
+
+				<div class="image-container">
+					<img src="images/jasmine-about.png" class="andrew-img" alt="Jasmine Radi, Vitality Massage Studio Owner Performing Massage Therapy Services">
+						<div class="text-container">
+							<h4>Jasmine Radi, Vitality Massage Studio Owner & LMT #1544</h4>
+							<p>Jasmine Radi earned her credentials through Josefs School of Hair, Skin and Body in Grand Forks, ND. She is a Licensed Massage Therapist through the state of North Dakota, ND LMT #1544.</p>
+						</div>
+				</div>
+			</div>
+		</main>
+	
+		<footer>
+				<section class="columns">
+					<div class="column-1">
+						<h3>Hours of Operation</h3><br>
+						<p>Tues:  &nbsp; &nbsp; 12pm-7:00pm</p><br>
+						<p>Wed:   &nbsp; &nbsp; 12pm-7:00pm</p><br>
+						<p>Thurs: &nbsp; 12pm-7:00pm</p><br>
+						<p>Fri: &nbsp; &nbsp; &nbsp; &nbsp; 12pm-7:00pm</p><br>
+					</div>
+					<div class="column-2">
+						<a href="index.html"><img src="images/vitality-logo.png" class="footer-logo" alt="vitality massage studio logo"></a><br>
+						<a href="https://www.vagaro.com/us04/vitalitymassagestudio" target="_blank"><img src="images/vagaro.png" class="vagaro-img" alt="Book Now Button"></a>
+					</div>
+					<div class="column-3">
+						<ul>
+							<li>
+								<p><a href="index.html">Home</a></p><br>
+								<p><a href="about.html">About</a></p><br>
+								<p><a href="services.html">Services</a></p><br>
+								<p><a href="contact.html">Contact</a></p><br>
+								<p><a href="https://www.vagaro.com/vitalitymassagestudio" target="_blank">Book Now</a></p><br>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<p class="copyright">© 2025 Vitality Massage Studio. All rights reserved. Web Design & Code by Jasmine Radi.</p>
+		</footer>
+
+		<script>	
+			function showSidebar() {
+				const sidebar = document.querySelector('.sidebar')
+				sidebar.style.display = 'flex'
+			}
+
+			function hideSidebar() {
+				const sidebar = document.querySelector('.sidebar')
+				sidebar.style.display = 'none'
+			}
+		</script>
+	</div>
+</body>
+
+</html>
