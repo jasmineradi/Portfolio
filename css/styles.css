@@ -1,0 +1,729 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/* Mobile First */
+body {
+	background-color: #1C3F60;
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	color: #fff;	
+}
+
+/* Header */
+.header-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+/* Logo */
+.logo {
+	max-width: 35vh;
+	height: auto;
+	padding: 1em;
+}
+
+/* Navigation */
+nav {
+	width: 100%;
+}
+
+nav ul {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+nav a {
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 1rem;
+	align-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 100vh;
+	width: 250px;
+	z-index: 999;
+	background-color: #1C3F60;
+	display: none;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	font-family: "Quicksand", "Montserrat", "Raleway", serif;
+}
+
+.sidebar {
+	width: 100%;
+}
+
+.sidebar li {
+	width: 100%;
+	padding: 1rem 1rem;
+}
+
+.sidebar a {
+	width: 100%;
+	color: #fff;
+}
+
+.sidebar-bookingbtn {
+	display: inline-block;
+	color: #1C3F60;
+	background-color: #fff;
+	padding: 0.5em;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-left: 2rem;
+	margin-top: 2rem;
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-size: 16px;
+}
+
+.sidebar-bookingbtn a {
+	color: #000;
+	text-decoration: none;
+}
+
+.hideOnMobile{
+	display: none;
+}
+
+.nav-bookingbtn {
+	display: none;
+}
+
+/* Hamburger Menu Button */
+.menu-button {
+	display: inline-block;
+	color:#fff;
+	margin-right: 10%;
+}
+
+/* Hero Section */
+
+.mbl-hero-index {
+	display: block;
+}
+
+.mbl-hero-hm-img {
+	width: 100%;
+	height: auto;
+}
+
+.desktop-hero{
+	display: none;
+}
+
+.abt-hero-img {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+/* Home Info Main */
+.home-info{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	padding: 2.5em;
+
+}
+
+/* Home Page Booking Button*/
+.bookingbtn-container {
+	display: flex;
+	justify-content: left;
+	padding-left: 2.5em;
+	width: 100%;
+	height: auto;
+}
+
+.bookingbtn{
+	justify-content: left;
+	border: 1px solid #fff;
+	font-family: "Quicksand", "Montserrat", "Raleway", serif;
+	padding: 0.5em;
+
+}
+
+.home-info p{
+	font-family: "Quicksand", "Montserrat", "Raleway", serif;
+}
+
+.home-info li{
+	list-style-type: circle;
+}
+/* Services Page Main */
+
+.services-mobile-hero {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+.bckgrnd-servicecontainer {
+	background-color: #285987;
+}
+
+.service-container {
+	display: grid;
+	gap: 2rem;
+	width: min(85%, 90rem);
+	grid-template-rows: repeat(2, 1fr);
+	margin-inline: auto;
+	padding: 2em;
+}
+
+.service {
+	font-family: "Quicksand", "Montserrat", "Raleway", serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.serviceitems {
+	display: grid;
+	grid-template-columns: auto;
+	text-align: left;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.description {
+	font-family: "Quicksand", "Montserrat", "Raleway", serif;
+	font-size: 14px;
+}
+
+.book-now-btn {
+	display:grid;
+	grid-template-rows: auto;
+	font-family: "Quicksand", "Montserrat", "Raleway", serif;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 0.5em;
+	max-width: 145px;
+}
+
+/* About Page Main */
+.about-main {
+	display: grid;
+	grid-template-rows: repeat(1, 1fr);
+	gap: 1.5rem;
+	width: min(90%, 80rem);
+	margin: 0 auto;
+}
+
+.image-container {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.image-container img {
+	width: 85%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.text-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text-container h4 {
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-size: 14px;
+	text-align: left;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+.text-container p {
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+/* Contact us Page */
+.contact-grid {
+	display: grid;
+	grid-template-rows: auto auto;
+	gap: 2em;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.contact-grid1 h4 {
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	text-align: left;
+	padding-bottom: 1em;
+}
+
+.contact-grid1 p {
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+.contact-grid2 h4 {
+	padding-bottom: 1em;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.contact-detls {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 3em;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 2em;
+	align-content: center;
+	padding-bottom: 4em;
+}
+
+.contact-detls-grid1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.generic-text {
+	text-align: center;
+}
+
+.vagaro-img2 {
+	width: 20%;
+	height: auto;
+	align-content: center;
+}
+
+.contact-detls-grid2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact-detls-grid3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.faq{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	text-align: left;
+	border: 1px solid white;
+	padding: 1em;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+	padding-top: 2em;
+}
+
+.columns {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 1rem;
+	padding: 1em;
+}
+
+.column-1, .column-3 {
+	display: none;
+}
+
+.column-2 {
+	text-align: center;
+	padding: 2em 0 0 0;
+}
+
+.footer-logo {
+	width: 70%;
+	height: auto;
+}
+
+.vagaro-img {
+	width: 10%;
+	height: auto;
+}
+
+.copyright {
+	display: none;
+}
+
+/* *******************************Media Query for Tablet******************************* */
+
+@media (min-width: 550px) {
+	/* navigation */
+	.hideOnMobile{
+		display: none;
+	}
+
+	.nav-bookingbtn {
+		display: inline-block;
+		color: #fff;
+		background-color: #1C3F60;
+		padding: 0.75em;
+		border: 1px solid #fff;
+		cursor: pointer;
+		text-decoration: none;
+		margin-right: 2rem;
+		font-family: "Quicksand","Montserrat", "Raleway", serif;
+	}
+
+	.menu-button {
+		display: inline-block;
+		margin-right: 4%;
+	}
+
+/* Hide Mobile Hero Home Page*/
+.mbl-hero-index {
+	display: none;
+}
+
+/* Show non mobile hero */
+.desktop-hero {
+	display: block;
+}
+
+/* Index.html Hero Image on Tablet and Up */
+.desk-hero-img, .hero-img {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+.abt-hero-img {
+	width: 100%;
+	height: auto;
+	padding: 1em;
+}
+
+/* About Main */
+.about-main {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 1.5rem;
+	width: min(100%, 100rem);
+}
+
+.image-container img{
+	width: 80%;
+	height: auto;
+}
+
+.text-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.text-container h4 {
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-size: 14px;
+}
+
+.text-container p {
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+/* Services Main */
+
+.services-mobile-hero {
+display: none;
+}
+
+.serviceitems {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+/* Contact Us Page */
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-detls {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* Footer */
+
+.copyright {
+	display: block;
+	font-family: "Quicksand","Montserrat", "Raleway", serif;
+	font-weight: 300;
+}
+
+/* Show Hours and Navigation in Footer on Tablet and Up */
+.column-1, .column-3 {
+	display: block;
+}
+
+.columns {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	padding: 1em;
+}
+
+.column-1 {
+	text-align: left;
+	padding:  2em 0 0 2em;
+}
+
+.column-2 {
+	text-align: center;
+	padding: 2em 0 0 0;
+}
+
+.footer-logo {
+	width: 100%;
+	height: auto;
+	padding: 1em 0 0 0;
+}
+
+.column-3 {
+	color: #fff;
+	text-align: center;
+}
+
+.column-3 {
+	text-align: right;
+	padding: 2em 2em 0 0;
+}
+
+.column-3 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.column-3 li {
+	list-style-type: none;
+}
+
+.column-1, .column-3 {
+	font-size: 12px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 1em 0 0 0;
+	font-size: 13.5px;
+	color: #fff;
+}
+}
+
+/* *******************************Media Query for Desktop******************************* */
+@media (min-width: 1000px) {
+	body {
+		background-color: #1C3F60;
+		font-family: "Quicksand","Montserrat", "Raleway", serif;
+		color: #fff;	
+	}
+	
+	/* Header */
+	.header-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	/* Logo */
+	.logo {
+		max-width: 35vh;
+		height: auto;
+		padding: 1em;
+	}
+
+	/* Hide on Mobile, Show on Desktop */
+	.hideOnMobile{
+		display: inline-block;
+	}
+	
+	/* Navigation */
+	nav {
+		width: 100%;
+		padding-right: 3%;
+		font-size: 14px;
+	}
+	
+	nav ul {
+		width: 100%;
+		list-style: none;
+		display: flex;
+		justify-content: end;
+		align-items: center;
+	}
+	
+	nav a {
+		display: flex;
+		text-decoration: none;
+		color: #fff;
+		padding: 0 1rem;
+		align-items: center;
+	}
+	
+	.nav-bookingbtn {
+		display: none;
+	}
+
+	#booknowstyle {
+		border: 1px solid #fff;
+		padding: 0.25em 0;
+		margin: 0.25em 0;
+	}
+
+	/* Sidebar */
+	.sidebar {
+		position: fixed;
+		top: 0;
+		right: 0;
+		height: 100vh;
+		width: 250px;
+		z-index: 999;
+		background-color: #1C3F60;
+		display: none;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	
+	.sidebar {
+		width: 100%;
+	}
+	
+	.sidebar li {
+		width: 100%;
+		padding: 1rem 1rem;
+	}
+	
+	.sidebar a {
+		width: 100%;
+		color: #fff;
+	}
+	
+	/* Hamburger Menu*/
+	.menu-button {
+		display: none;
+		color:#fff;
+	}
+	
+	/* Hero Section */
+	.desk-hero {
+		display: block;
+	}
+	
+	.desk-hero-img {
+		width: 100%;
+		height: auto;
+	}
+
+	/* About Page Main */
+	.text-container h4 {
+		font-size: 16px;
+	}
+	
+	.text-container p {
+		font-size: 14px;
+	}
+	
+	/* Services Page */
+
+	.service {
+		font-size: 16px;
+	}
+	.serviceitems {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		font-size: 14px;
+	}
+
+	/* Contact Us Page */
+
+	.contact-grid {
+		width: 90%;
+		margin: 0 auto;		
+	}
+
+	.contact-grid1 h4 {
+		font-size: 20px;
+	}
+
+	.contact-grid p {
+		font-size: 15px;
+	}
+
+	.contact-grid2 h4 {
+		font-size: 20px;
+	}
+
+	/* Footer */
+
+	.column-1, .column-3 {
+		font-size: 14px;
+	}
+
+	.footer-logo {
+		width: 70%;
+		height: auto;
+	}
+
+	.vagaro-img {
+		width: 10%;
+		height: auto;
+	}
+}
+
+/* *******************************Media Query for Large Desktop******************************* */
+	@media (min-width: 1920px) {
+		#container {
+			width: 50%;
+			margin: 0 auto;
+		}
+	}
