@@ -12,6 +12,9 @@ Design elements include: The Seasons Font - Adobe Fonts, Custom Hero images and 
 
 Project status: 🛠️ Under Construction: Home Page | Featured Projects, Portfolio Page | All Projects
 
+<br>
+<br>
+<br>
 
 
 Taskly - Task Manager Web Application
