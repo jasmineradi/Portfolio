@@ -1,10 +1,15 @@
 My Portfolio features projects and applications that I have used to build my skill outside of school. 
 
+<br>
+<br>
+<br>
 
 
 Jasmine Radi - Portfolio Site
 
-<img src="portfolio.png">
+View It Live (deploying 6/1/2025) ✔️
+
+<img src="portfolio.png" width="500px" height="auto">
 
 Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop)
 
@@ -19,13 +24,15 @@ Project status: 🛠️ Under Construction: Home Page | Featured Projects, Portf
 
 Taskly - Task Manager Web Application
 
-<a href="https://tasklythetaskmanager.netlify.app">View It Live</a>
+<a href="https://tasklythetaskmanager.netlify.app">View It Live</a>✔️
 
-<img src="taskly.png">
+<img src="taskly.png" width="500px" height="auto">
 
-Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop)
+Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop), Pomodoro timer, Pomodoro 'main priority' section.
 
 Design elements include: Dynapuff - Google Fonts, CSS gradients, Font-Awesome Icons.
+
+JavaScript Features: focus timer, dynamic calendar display, search filter for tasks, easy ui for adding tasks and manipulating them with 'main priority' button, categorizing options, due dates, motivational completion.
 
 Project status: ✔️ Fully Completed.
 
