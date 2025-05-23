@@ -5,6 +5,6 @@ Features: HTML, CSS, JavaScript
 Design elements include: The Seasons Font - Adobe Fonts, Custom Hero images and SVG graphics throughout.
 Under Construction: Home Page | Featured Projects, Portfolio Page | All Projects
 
-<img src="../portfolio.png">
+<img src="portfolio.png">
 
 
