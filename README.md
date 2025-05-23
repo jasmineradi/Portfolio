@@ -4,7 +4,7 @@ My Portfolio features projects and applications that I have used to build my ski
 
 Jasmine Radi - Portfolio Site
 
-<img src="portfolio.png" width="150px" height="150px">
+<img src="portfolio.png" width="300px" height="auto">
 
 Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop)
 
