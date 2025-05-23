@@ -22,7 +22,7 @@ Project status: 🛠️ Under Construction: Home Page | Featured Projects, Portf
 
 Taskly - Task Manager Web Application
 
-<a href="https://tasklythetaskmanager.netlify.app">View It Live</a>
+<a href="https://tasklythetaskmanager.netlify.app">View It Live</a>✔️
 
 <img src="taskly.png" width="500px" height="auto">
 
