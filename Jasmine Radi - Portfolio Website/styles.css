@@ -1,0 +1,536 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b44b41;
+    width: 100%;
+    height: auto;
+    font-family: "the-seasons", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+/*Desktop Nav*/
+nav ul { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.em;
+}
+
+nav ul li a:hover {
+    animation: bounce 1.5s ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-8px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.tab-desk {
+    display: none;
+}
+/*End Desktop Nav*/
+
+/*Mobile Navigation*/
+/*Hamburger Menu*/
+.mobile-nav {
+    display: block;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/*Active is toggled by JavaScript*/
+.mobile-menu.active {
+    display: block;
+    position: absolute;
+    gap: 1em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #B14041;
+    z-index: 1000;
+}
+
+.mobile-menu.active ul{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+.mobile-menu.active li {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    width: 100%;
+    height: auto;
+}
+/*End Mobile Navigation*/
+
+/*Home Page Hero*/
+.hero{
+    width: 100%;
+    height: auto;
+    margin: 12em 0;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.svg-divider {
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+  
+.svg-divider svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0;
+}
+
+/*Home page*/
+.test {
+    width: 70%;
+    height: auto;
+}
+
+/*About Page*/
+/*About Page Header*/
+.title {
+    font-size: 2em;
+    margin-top: 1em;
+    padding: 0.25em 0.15em;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 2em;
+}
+
+/*About Page Intro P*/
+.hi {
+    font-size: 1.75em;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*About page, title on the Front End Skills Text*/
+.about-title {
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: bold;
+}
+/*About page, description text below Front End Skills Text*/
+.description-text2 {
+    text-align: center;
+    font-size: 1.em;
+}
+
+.profile-pic{
+    width: 80%;
+    height: auto;
+    margin: 1em 0;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.description-text {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+/*About Page*/
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -1px;
+    background-color: #D0DEE5;
+    width: 100%;
+    height: auto;
+    color: #B14041;
+    font-size: 1em;
+    text-align: center;
+}
+
+.stack-container {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.stack-container p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-top: 0.75em;
+    padding-bottom: 1em;
+}
+
+.tech-stack-img {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+.tech-stack-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #D0DEE5;
+    padding: 1em;
+    gap: 1em;
+    width: 100%;
+    height: auto;
+    color: #B14041;
+}
+
+.tech-stack-items p {
+    text-align: center;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.stack-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.icon {
+    width: 15%;
+    height: auto;
+    padding: 0.5em;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75em;
+    padding: 1.75em;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.skills-row-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1.5em;
+}
+/*End About Page*/
+
+/*Hire Me Page*/
+
+.roles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.75em;
+    margin: 1em;
+    height: auto;
+    border-radius: 1rem;
+    padding: 1em;
+}
+
+.role-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin: 1em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #B14041;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #B14041;
+  border-radius: 0.5rem;
+}
+
+.header2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.choose-role {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Media Query - Tablet*/
+@media screen and (min-width: 768px){
+    .hero {
+        margin: 2em 0;
+    }
+
+    .introduction {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .profile-pic {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .hi {
+        font-size: 2em;
+        margin-top: 1em;
+        text-align: left;
+        width: 90%;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description-text {
+        width: 90%;
+        text-align: left;
+    }
+
+/*About Page*/
+    .stack-container {
+        margin: 0 auto;
+        max-width: 90%;
+        height: auto;
+    }
+/*About Page*/
+    .tech-stack-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .icon {
+        max-width: 10%;
+        height: auto;
+    }
+
+    .skills-row-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 1em;
+    }
+
+    /*Hire Me Page*/
+    .role-container {
+    display: flex;
+    flex-direction: row;
+    }
+}
+
+/*Media Query - Desktop*/
+@media screen and (min-width: 924px){
+    header {
+        padding: 2em;
+    }
+
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+
+    .title {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .introduction {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+        padding: 0 7em;
+    }
+
+    .profile-pic {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .tech-stack-img {
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .skills-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 1em;
+}
+
+    .icon {
+        max-width: 20%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    nav ul li a {
+        font-size: 1.25em;
+    }
+
+    .svg-divider {
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+    }
+  
+  .svg-divider svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0;
+    }
+
+    header{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .hero {
+        max-width: 65%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tech-stack {
+        margin-top: -5px;
+    }
+
+    .tech-stack-img {
+        max-width: 65%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .icon {
+        max-width: 10%;
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width: 2560px){
+    body {
+    max-width: 75%;
+    }
+
+}
