@@ -1,3 +1,8 @@
-These are some JavaScript assignments that I have been working on Spring semester 2026.
+My Portfolio features projects and applications that I have used to build my skill outside of school. 
 
-<img src="/webapp.png" alt="Task Manager Screenshot" width="600"/>
+Jasmine Radi - Portfolio Site
+Features: HTML, CSS, JavaScript
+Design elements include: The Seasons Font - Adobe Fonts, Custom Hero images and SVG graphics throughout.
+Under Construction: Home Page | Featured Projects, Portfolio Page | All Projects
+
+
