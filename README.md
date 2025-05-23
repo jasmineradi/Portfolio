@@ -23,9 +23,11 @@ Taskly - Task Manager Web Application
 
 <img src="taskly.png">
 
-Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop)
+Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop), Pomodoro Style Elements.
 
 Design elements include: Dynapuff - Google Fonts, CSS gradients, Font-Awesome Icons.
+
+JavaScript Features: focus timer, dynamic calendar display, search filter for tasks, easy ui for adding tasks and manipulating them with 'main priority' button, categorizing options, due dates, motivational completion.
 
 Project status: ✔️ Fully Completed.
 
