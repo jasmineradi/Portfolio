@@ -1,5 +1,8 @@
 My Portfolio features projects and applications that I have used to build my skill outside of school. 
 
+<br>
+<br>
+<br>
 
 
 Jasmine Radi - Portfolio Site
@@ -21,7 +24,7 @@ Taskly - Task Manager Web Application
 
 <a href="https://tasklythetaskmanager.netlify.app">View It Live</a>
 
-<img src="taskly.png">
+<img src="taskly.png" width="500px" height="auto">
 
 Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop), Pomodoro Style Elements.
 
