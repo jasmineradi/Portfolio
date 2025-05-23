@@ -26,7 +26,7 @@ Taskly - Task Manager Web Application
 
 <img src="taskly.png" width="500px" height="auto">
 
-Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop), Pomodoro Style Elements.
+Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop), Pomodoro timer, Pomodoro 'main priority' section.
 
 Design elements include: Dynapuff - Google Fonts, CSS gradients, Font-Awesome Icons.
 
