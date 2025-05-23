@@ -7,6 +7,8 @@ My Portfolio features projects and applications that I have used to build my ski
 
 Jasmine Radi - Portfolio Site
 
+View It Live (deploying 6/1/2025) ✔️
+
 <img src="portfolio.png" width="500px" height="auto">
 
 Features: HTML, CSS, JavaScript, Responsive Design (Mobile, Tablet, Desktop)
